@@ -5,7 +5,7 @@ Feature: A sample feature to demonstate something
     When the second test is skipped
     Then the third test should fail
 
-  Scenario: when the pending exception is at last
-    Given the first test passes
-    Then the third test should fail
-    When the second test is skipped
+#  Scenario: when the pending exception is at last
+#    Given the first test passes
+#    Then the third test should fail
+#    When the second test is skipped
