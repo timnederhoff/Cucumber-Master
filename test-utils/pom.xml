@@ -5,21 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>nl.timnederhoff.testautomation</groupId>
+    <parent>
+        <groupId>nl.timnederhoff.testautomation</groupId>
+        <artifactId>test-project-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <artifactId>test-utils</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.typesafe</groupId>
-            <artifactId>config</artifactId>
-            <version>1.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-    </dependencies>
 
 </project>
